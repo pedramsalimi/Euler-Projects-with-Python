@@ -13,7 +13,7 @@ def project_2():
         if a % 2 == 0:
             sum += a
         a, b = b, a+b
-    return str(sum)
+    return sum
 
 
 print(project_2())
