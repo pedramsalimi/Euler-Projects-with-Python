@@ -6,7 +6,6 @@ t=time.time()
 def project_7(n):
    l=[]
    num=2
-   j=0
    l.append(2)
    while len(l)-1<n:
         if all(num%i!=0 for i in range(2,int((num)**0.5)+1)):
